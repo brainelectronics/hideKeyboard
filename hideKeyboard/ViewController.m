@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //added
+    _inputTextField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +29,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Added Code
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [_inputTextField resignFirstResponder];
+    _outputTextLabel.text = _inputTextField.text;   //show entered text at output label
+    return YES;
+}
+//End of added code
+
+- (void)dealloc
+{
+    [_inputTextField release];
+    [_outputTextLabel release];
+    [super dealloc];
+}
 @end
