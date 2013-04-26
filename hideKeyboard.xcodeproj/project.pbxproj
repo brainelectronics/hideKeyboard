@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7605B3172B154000BC3D2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7605B2172B154000BC3D2D /* UIKit.framework */; };
+		DF7605B5172B154000BC3D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7605B4172B154000BC3D2D /* Foundation.framework */; };
+		DF7605B7172B154000BC3D2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7605B6172B154000BC3D2D /* CoreGraphics.framework */; };
+		DF7605BD172B154000BC3D2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7605BB172B154000BC3D2D /* InfoPlist.strings */; };
+		DF7605BF172B154000BC3D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7605BE172B154000BC3D2D /* main.m */; };
+		DF7605C3172B154000BC3D2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7605C2172B154000BC3D2D /* AppDelegate.m */; };
+		DF7605C5172B154000BC3D2D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7605C4172B154000BC3D2D /* Default.png */; };
+		DF7605C7172B154000BC3D2D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7605C6172B154000BC3D2D /* Default@2x.png */; };
+		DF7605C9172B154000BC3D2D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7605C8172B154000BC3D2D /* Default-568h@2x.png */; };
+		DF7605CC172B154000BC3D2D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7605CA172B154000BC3D2D /* MainStoryboard.storyboard */; };
+		DF7605CF172B154000BC3D2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7605CE172B154000BC3D2D /* ViewController.m */; };
+		DF7605D7172B154000BC3D2D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7605D6172B154000BC3D2D /* SenTestingKit.framework */; };
+		DF7605D8172B154000BC3D2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7605B2172B154000BC3D2D /* UIKit.framework */; };
+		DF7605D9172B154000BC3D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7605B4172B154000BC3D2D /* Foundation.framework */; };
+		DF7605E1172B154000BC3D2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF7605DF172B154000BC3D2D /* InfoPlist.strings */; };
+		DF7605E4172B154000BC3D2D /* hideKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7605E3172B154000BC3D2D /* hideKeyboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7605DA172B154000BC3D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7605A7172B154000BC3D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7605AE172B154000BC3D2D;
+			remoteInfo = hideKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF7605AF172B154000BC3D2D /* hideKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hideKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7605B2172B154000BC3D2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF7605B4172B154000BC3D2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF7605B6172B154000BC3D2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF7605BA172B154000BC3D2D /* hideKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hideKeyboard-Info.plist"; sourceTree = "<group>"; };
+		DF7605BC172B154000BC3D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF7605BE172B154000BC3D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF7605C0172B154000BC3D2D /* hideKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hideKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		DF7605C1172B154000BC3D2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF7605C2172B154000BC3D2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF7605C4172B154000BC3D2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF7605C6172B154000BC3D2D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF7605C8172B154000BC3D2D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF7605CB172B154000BC3D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DF7605CD172B154000BC3D2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF7605CE172B154000BC3D2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF7605D5172B154000BC3D2D /* hideKeyboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hideKeyboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7605D6172B154000BC3D2D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DF7605DE172B154000BC3D2D /* hideKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hideKeyboardTests-Info.plist"; sourceTree = "<group>"; };
+		DF7605E0172B154000BC3D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF7605E2172B154000BC3D2D /* hideKeyboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hideKeyboardTests.h; sourceTree = "<group>"; };
+		DF7605E3172B154000BC3D2D /* hideKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hideKeyboardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7605AC172B154000BC3D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7605B3172B154000BC3D2D /* UIKit.framework in Frameworks */,
+				DF7605B5172B154000BC3D2D /* Foundation.framework in Frameworks */,
+				DF7605B7172B154000BC3D2D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7605D1172B154000BC3D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7605D7172B154000BC3D2D /* SenTestingKit.framework in Frameworks */,
+				DF7605D8172B154000BC3D2D /* UIKit.framework in Frameworks */,
+				DF7605D9172B154000BC3D2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7605A6172B154000BC3D2D = {
+			isa = PBXGroup;
+			children = (
+				DF7605B8172B154000BC3D2D /* hideKeyboard */,
+				DF7605DC172B154000BC3D2D /* hideKeyboardTests */,
+				DF7605B1172B154000BC3D2D /* Frameworks */,
+				DF7605B0172B154000BC3D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7605B0172B154000BC3D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7605AF172B154000BC3D2D /* hideKeyboard.app */,
+				DF7605D5172B154000BC3D2D /* hideKeyboardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7605B1172B154000BC3D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF7605B2172B154000BC3D2D /* UIKit.framework */,
+				DF7605B4172B154000BC3D2D /* Foundation.framework */,
+				DF7605B6172B154000BC3D2D /* CoreGraphics.framework */,
+				DF7605D6172B154000BC3D2D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7605B8172B154000BC3D2D /* hideKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DF7605C1172B154000BC3D2D /* AppDelegate.h */,
+				DF7605C2172B154000BC3D2D /* AppDelegate.m */,
+				DF7605CA172B154000BC3D2D /* MainStoryboard.storyboard */,
+				DF7605CD172B154000BC3D2D /* ViewController.h */,
+				DF7605CE172B154000BC3D2D /* ViewController.m */,
+				DF7605B9172B154000BC3D2D /* Supporting Files */,
+			);
+			path = hideKeyboard;
+			sourceTree = "<group>";
+		};
+		DF7605B9172B154000BC3D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7605BA172B154000BC3D2D /* hideKeyboard-Info.plist */,
+				DF7605BB172B154000BC3D2D /* InfoPlist.strings */,
+				DF7605BE172B154000BC3D2D /* main.m */,
+				DF7605C0172B154000BC3D2D /* hideKeyboard-Prefix.pch */,
+				DF7605C4172B154000BC3D2D /* Default.png */,
+				DF7605C6172B154000BC3D2D /* Default@2x.png */,
+				DF7605C8172B154000BC3D2D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF7605DC172B154000BC3D2D /* hideKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7605E2172B154000BC3D2D /* hideKeyboardTests.h */,
+				DF7605E3172B154000BC3D2D /* hideKeyboardTests.m */,
+				DF7605DD172B154000BC3D2D /* Supporting Files */,
+			);
+			path = hideKeyboardTests;
+			sourceTree = "<group>";
+		};
+		DF7605DD172B154000BC3D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7605DE172B154000BC3D2D /* hideKeyboardTests-Info.plist */,
+				DF7605DF172B154000BC3D2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7605AE172B154000BC3D2D /* hideKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7605E7172B154000BC3D2D /* Build configuration list for PBXNativeTarget "hideKeyboard" */;
+			buildPhases = (
+				DF7605AB172B154000BC3D2D /* Sources */,
+				DF7605AC172B154000BC3D2D /* Frameworks */,
+				DF7605AD172B154000BC3D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hideKeyboard;
+			productName = hideKeyboard;
+			productReference = DF7605AF172B154000BC3D2D /* hideKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7605D4172B154000BC3D2D /* hideKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7605EA172B154000BC3D2D /* Build configuration list for PBXNativeTarget "hideKeyboardTests" */;
+			buildPhases = (
+				DF7605D0172B154000BC3D2D /* Sources */,
+				DF7605D1172B154000BC3D2D /* Frameworks */,
+				DF7605D2172B154000BC3D2D /* Resources */,
+				DF7605D3172B154000BC3D2D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7605DB172B154000BC3D2D /* PBXTargetDependency */,
+			);
+			name = hideKeyboardTests;
+			productName = hideKeyboardTests;
+			productReference = DF7605D5172B154000BC3D2D /* hideKeyboardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7605A7172B154000BC3D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jonas Scharpf";
+			};
+			buildConfigurationList = DF7605AA172B154000BC3D2D /* Build configuration list for PBXProject "hideKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF7605A6172B154000BC3D2D;
+			productRefGroup = DF7605B0172B154000BC3D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7605AE172B154000BC3D2D /* hideKeyboard */,
+				DF7605D4172B154000BC3D2D /* hideKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7605AD172B154000BC3D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7605BD172B154000BC3D2D /* InfoPlist.strings in Resources */,
+				DF7605C5172B154000BC3D2D /* Default.png in Resources */,
+				DF7605C7172B154000BC3D2D /* Default@2x.png in Resources */,
+				DF7605C9172B154000BC3D2D /* Default-568h@2x.png in Resources */,
+				DF7605CC172B154000BC3D2D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7605D2172B154000BC3D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7605E1172B154000BC3D2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF7605D3172B154000BC3D2D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7605AB172B154000BC3D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7605BF172B154000BC3D2D /* main.m in Sources */,
+				DF7605C3172B154000BC3D2D /* AppDelegate.m in Sources */,
+				DF7605CF172B154000BC3D2D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7605D0172B154000BC3D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7605E4172B154000BC3D2D /* hideKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7605DB172B154000BC3D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7605AE172B154000BC3D2D /* hideKeyboard */;
+			targetProxy = DF7605DA172B154000BC3D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF7605BB172B154000BC3D2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7605BC172B154000BC3D2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF7605CA172B154000BC3D2D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7605CB172B154000BC3D2D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7605DF172B154000BC3D2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7605E0172B154000BC3D2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7605E5172B154000BC3D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF7605E6172B154000BC3D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7605E8172B154000BC3D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hideKeyboard/hideKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "hideKeyboard/hideKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF7605E9172B154000BC3D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hideKeyboard/hideKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "hideKeyboard/hideKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF7605EB172B154000BC3D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hideKeyboard.app/hideKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hideKeyboard/hideKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "hideKeyboardTests/hideKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DF7605EC172B154000BC3D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hideKeyboard.app/hideKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hideKeyboard/hideKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "hideKeyboardTests/hideKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7605AA172B154000BC3D2D /* Build configuration list for PBXProject "hideKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7605E5172B154000BC3D2D /* Debug */,
+				DF7605E6172B154000BC3D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7605E7172B154000BC3D2D /* Build configuration list for PBXNativeTarget "hideKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7605E8172B154000BC3D2D /* Debug */,
+				DF7605E9172B154000BC3D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF7605EA172B154000BC3D2D /* Build configuration list for PBXNativeTarget "hideKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7605EB172B154000BC3D2D /* Debug */,
+				DF7605EC172B154000BC3D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7605A7172B154000BC3D2D /* Project object */;
+}
