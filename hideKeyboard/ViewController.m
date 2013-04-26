@@ -20,6 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     //added
+    [_inputTextField setReturnKeyType:UIReturnKeyDone]; //specifies the return key type to done
     _inputTextField.delegate = self;
 }
 
